@@ -1,0 +1,45 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:org.example////PointingToDeclaration/-programaccio-objectes/org.example/index.html
+$dokka.location:org.example/Car///PointingToDeclaration/-programaccio-objectes/org.example/-car/index.html
+$dokka.location:org.example/Car/Car/#/PointingToDeclaration/-programaccio-objectes/org.example/-car/-car.html
+$dokka.location:org.example/Car/getBrand/#/PointingToDeclaration/-programaccio-objectes/org.example/-car/get-brand.html
+$dokka.location:org.example/Car/getModel/#/PointingToDeclaration/-programaccio-objectes/org.example/-car/get-model.html
+$dokka.location:org.example/Car/getYear/#/PointingToDeclaration/-programaccio-objectes/org.example/-car/get-year.html
+$dokka.location:org.example/Car/setBrand/#kotlin.String/PointingToDeclaration/-programaccio-objectes/org.example/-car/set-brand.html
+$dokka.location:org.example/Car/setModel/#kotlin.String/PointingToDeclaration/-programaccio-objectes/org.example/-car/set-model.html
+$dokka.location:org.example/Car/setYear/#kotlin.Int/PointingToDeclaration/-programaccio-objectes/org.example/-car/set-year.html
+$dokka.location:org.example/Car2///PointingToDeclaration/-programaccio-objectes/org.example/-car2/index.html
+$dokka.location:org.example/Car2/Car2/#/PointingToDeclaration/-programaccio-objectes/org.example/-car2/-car2.html
+$dokka.location:org.example/Car2/getBrand2/#/PointingToDeclaration/-programaccio-objectes/org.example/-car2/get-brand2.html
+$dokka.location:org.example/Car2/getModel2/#/PointingToDeclaration/-programaccio-objectes/org.example/-car2/get-model2.html
+$dokka.location:org.example/Car2/getYear2/#/PointingToDeclaration/-programaccio-objectes/org.example/-car2/get-year2.html
+$dokka.location:org.example/Car2/setBrand2/#kotlin.String/PointingToDeclaration/-programaccio-objectes/org.example/-car2/set-brand2.html
+$dokka.location:org.example/Car2/setModel2/#kotlin.String/PointingToDeclaration/-programaccio-objectes/org.example/-car2/set-model2.html
+$dokka.location:org.example/Car2/setYear2/#kotlin.Int/PointingToDeclaration/-programaccio-objectes/org.example/-car2/set-year2.html
+$dokka.location:org.example/Car3///PointingToDeclaration/-programaccio-objectes/org.example/-car3/index.html
+$dokka.location:org.example/Car3/Car3/#kotlin.String#kotlin.String#kotlin.Int/PointingToDeclaration/-programaccio-objectes/org.example/-car3/-car3.html
+$dokka.location:org.example/Car3/getBrand3/#/PointingToDeclaration/-programaccio-objectes/org.example/-car3/get-brand3.html
+$dokka.location:org.example/Car3/getModel3/#/PointingToDeclaration/-programaccio-objectes/org.example/-car3/get-model3.html
+$dokka.location:org.example/Car3/getYear3/#/PointingToDeclaration/-programaccio-objectes/org.example/-car3/get-year3.html
+$dokka.location:org.example/Car3/setBrand3/#kotlin.String/PointingToDeclaration/-programaccio-objectes/org.example/-car3/set-brand3.html
+$dokka.location:org.example/Car3/setModel3/#kotlin.String/PointingToDeclaration/-programaccio-objectes/org.example/-car3/set-model3.html
+$dokka.location:org.example/Car3/setYear3/#kotlin.Int/PointingToDeclaration/-programaccio-objectes/org.example/-car3/set-year3.html
+$dokka.location:org.example/CarFunction///PointingToDeclaration/-programaccio-objectes/org.example/-car-function/index.html
+$dokka.location:org.example/CarFunction/CarFunction/#kotlin.String#kotlin.String#kotlin.Int/PointingToDeclaration/-programaccio-objectes/org.example/-car-function/-car-function.html
+$dokka.location:org.example/CarFunction/drive/#/PointingToDeclaration/-programaccio-objectes/org.example/-car-function/drive.html
+$dokka.location:org.example/CarFunction/getBrand/#/PointingToDeclaration/-programaccio-objectes/org.example/-car-function/get-brand.html
+$dokka.location:org.example/CarFunction/getModel/#/PointingToDeclaration/-programaccio-objectes/org.example/-car-function/get-model.html
+$dokka.location:org.example/CarFunction/getYear/#/PointingToDeclaration/-programaccio-objectes/org.example/-car-function/get-year.html
+$dokka.location:org.example/CarFunction/setBrand/#kotlin.String/PointingToDeclaration/-programaccio-objectes/org.example/-car-function/set-brand.html
+$dokka.location:org.example/CarFunction/setModel/#kotlin.String/PointingToDeclaration/-programaccio-objectes/org.example/-car-function/set-model.html
+$dokka.location:org.example/CarFunction/setYear/#kotlin.Int/PointingToDeclaration/-programaccio-objectes/org.example/-car-function/set-year.html
+$dokka.location:org.example/CarFunction/speed/#kotlin.Int/PointingToDeclaration/-programaccio-objectes/org.example/-car-function/speed.html
+$dokka.location:org.example/ClassCar(Exemple)Kt///PointingToDeclaration/-programaccio-objectes/org.example/-class-car(-exemple)-kt/index.html
+$dokka.location:org.example/ClassCar(Exemple)Kt/main/#/PointingToDeclaration/-programaccio-objectes/org.example/-class-car(-exemple)-kt/main.html
+$dokka.location:org.example/ClassCar(Exemple)Kt/main2/#/PointingToDeclaration/-programaccio-objectes/org.example/-class-car(-exemple)-kt/main2.html
+$dokka.location:org.example/ClassCar(Exemple)Kt/main3/#/PointingToDeclaration/-programaccio-objectes/org.example/-class-car(-exemple)-kt/main3.html
+$dokka.location:org.example/Fun&Ckass(Exemple)Kt///PointingToDeclaration/-programaccio-objectes/org.example/-fun&-ckass(-exemple)-kt/index.html
+$dokka.location:org.example/Fun&Ckass(Exemple)Kt/main/#/PointingToDeclaration/-programaccio-objectes/org.example/-fun&-ckass(-exemple)-kt/main.html
+org.example
+

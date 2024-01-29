@@ -1,24 +1,42 @@
+/**
+ * Representa un vehículo con propiedades como marca, modelo y año.
+ *
+ * @property brand La marca del vehículo.
+ * @property model El modelo del vehículo.
+ * @property year El año de fabricación del vehículo.
+ */
 package org.example
 
 class CarFunction(var brand: String, var model: String, var year: Int) {
-    // Class function
+
+    /**
+     * Simula la acción de conducir el vehículo imprimiendo el sonido del motor.
+     */
     fun drive() {
         println("Wrooom!")
     }
 
-    // Class function with parameters
+    /**
+     * Simula la acción de establecer la velocidad máxima del vehículo e imprime la velocidad máxima proporcionada.
+     *
+     * @param maxSpeed La velocidad máxima del vehículo.
+     */
     fun speed(maxSpeed: Int) {
-        println("Max speed is: " + maxSpeed)
+        println("Max speed is: $maxSpeed")
     }
 }
 
+/**
+ * Función principal que demuestra el uso de la clase [CarFunction].
+ */
 fun main() {
+    // Crear una instancia de CarFunction
     val c1 = CarFunction("Ford1", "Mustang1", 1969)
 
-    // Print property values
-    println(c1.brand + " " + c1.model + " " + c1.year)
+    // Imprimir los valores de las propiedades del vehículo
+    println("${c1.brand} ${c1.model} ${c1.year}")
 
-    // Call the functions
+    // Llamar a las funciones de la clase
     c1.drive()
     c1.speed(200)
 }
