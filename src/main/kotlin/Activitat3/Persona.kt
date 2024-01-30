@@ -1,13 +1,17 @@
 package org.example.Activitat3
 
 /* Definició de la classe Persona */
-class Persona {
-    //Estructura, coneguda com a propietats o atributs
-    var nom: String
-    var cognoms: String
-    var edat: Int = 0
+class Persona (var nom: String = "Anonimo", var cognoms: String = "Anonimez") {
+    // Estructura, coneguda com a propietats o atributs
     var alcada: Int = 0
     var pes: Float = 0f
+    var edat: Int = 0
+
+    constructor(nom: String, cognoms: String, edad: Int) : this() {
+        this.nom = nom
+        this.cognoms = cognoms
+        this.edat = edad
+    }
 
     init {
         nom = "Anònim"
@@ -17,7 +21,7 @@ class Persona {
         pes = 70.5f
     }
 
-    //Comportament, també conegut com mètodes
+    // Comportament, també conegut com mètodes
     fun caminar() {
         println(quiSocJo() + "Estic caminant")
     }
@@ -34,7 +38,11 @@ class Persona {
         println(quiSocJo() + "Ens veiem a l'infern!")
     }
 
-    private fun quiSocJo() : String {
-        return nom + cognoms + ":: "
+    fun presentacio() {
+        println("Nom: $nom\nCognom: $cognoms\nEdad: $edat\nPes: $pes\nAlçada: $alcada")
+    }
+
+    private fun quiSocJo(): String {
+        return "$nom $cognoms:: "
     }
 }
