@@ -5,7 +5,7 @@ class EXClassePersona () {
     var dni: String
     var nom: String
     var cognoms: String
-    var edat:Int = 0
+    var edat: Int = 0
     var estatCivil: Boolean = false
 
     init {
@@ -24,6 +24,7 @@ class EXClassePersona () {
         this.edat = 0
         this.estatCivil = false
     }
+
     constructor(dni: String, nom: String, cognoms: String, edat: Int, estatCivil: Boolean) : this() {
         this.dni = dni
         this.nom = nom
@@ -36,15 +37,47 @@ class EXClassePersona () {
         edat++
     }
 
-    fun casament () {
+    fun casament() {
         estatCivil = true
     }
 
-    fun divorci () {
+    fun divorci() {
         estatCivil = false
     }
 
     override fun toString(): String {
         return "Persona(dni='$dni', nom='$nom', cognoms='$cognoms', edat=$edat, estatCivil=$estatCivil)"
     }
+}
+
+class Cercle() {
+    var radi: Float = 0f
+    var color: String = "blanc"
+
+    init {
+        radi = 10f
+        color = "blanc"
+    }
+
+    constructor(radi: Float) : this() {
+        this.radi = radi
+    }
+
+    constructor(radi: Float, color: String) : this() {
+        this.radi = radi
+        this.color = color
+    }
+
+    fun perimetre(): Float {
+        return 2 * Math.PI * radi
+    }
+
+    fun area() : Float {
+        return Math.PI * radi * radi
+    }
+
+    override fun toString(): String {
+        return "Cercle(radi: $radi, color: $color)"
+    }
+
 }
