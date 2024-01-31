@@ -6,6 +6,9 @@ import org.example.Utilities.*
 
 /**
  * Programa principal que demuestra el uso de las clases [Pastisseria] y [Beguda].
+ *
+ * Este programa crea instancias de [Pastisseria] y [Beguda] utilizando las funciones de entrada
+ * proporcionadas por [Utilities] y muestra la información de cada producto en la consola.
  */
 fun main() {
     // Crear instancias de Pastisseria
