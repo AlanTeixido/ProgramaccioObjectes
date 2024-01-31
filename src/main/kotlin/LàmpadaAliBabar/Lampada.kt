@@ -1,10 +1,16 @@
 import org.example.Utilities.*
 
-class Lampada(private val identificador: String) {
+class Lampada {
     private var encesa: Boolean = false
     private var color: String = "Blanc"
     private var intensitat: Int = 0
     private val colorsValids = listOf("Blanc", "Negre", "Blau", "Vermell", "Verd", "Rosa")
+    private var identificador: String? = null
+
+    // Método para establecer el identificador
+    fun setIdentificador(nouIdentificador: String) {
+        identificador = nouIdentificador
+    }
 
     fun encendre() {
         encesa = true
@@ -49,10 +55,9 @@ class Lampada(private val identificador: String) {
         mostrarEstat()
     }
 
-
     private fun mostrarEstat() {
         val estat = if (encesa) "${GREEN}encés${RESET}" else "${RED}apagat${RESET}"
         val dibuixLampada = if (encesa) "🌟" else "💡"
-        println("$identificador - Estat: $estat, Color: $color, Intensitat: $intensitat $dibuixLampada")
+        println("${identificador ?: "Làmpada"} - Estat: $estat, Color: $color, Intensitat: $intensitat $dibuixLampada")
     }
 }
