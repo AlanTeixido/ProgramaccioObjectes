@@ -11,8 +11,8 @@ package org.example.Activitats_UF4_A5.models
 class Pastisseria {
 
     private var nom: String? = ""
-    private var preu: Double? = null
-    private var pes: Double? = null
+    private var preu: Float? = null
+    private var pes: Float? = null
     private var calories: Int? = null
 
     /**
@@ -23,7 +23,7 @@ class Pastisseria {
      * @param pes Peso del producto de pastelería.
      * @param calories Contenido calórico del producto de pastelería.
      */
-    constructor(nom: String, preu: Double, pes: Double, calories: Int) {
+    constructor(nom: String, preu: Float, pes: Float, calories: Int) {
         this.nom = nom
         this.preu = preu
         this.pes = pes
@@ -51,14 +51,14 @@ class Pastisseria {
      *
      * @return Precio del producto de pastelería.
      */
-    fun getPreu(): Double? = preu
+    fun getPreu(): Float? = preu
 
     /**
      * Establece el precio del producto de pastelería.
      *
      * @param preu Nuevo precio del producto de pastelería.
      */
-    fun setPreu(preu: Double) {
+    fun setPreu(preu: Float) {
         this.preu = preu
     }
 
@@ -67,14 +67,14 @@ class Pastisseria {
      *
      * @return Peso del producto de pastelería.
      */
-    fun getPes(): Double? = pes
+    fun getPes(): Float? = pes
 
     /**
      * Establece el peso del producto de pastelería.
      *
      * @param pes Nuevo peso del producto de pastelería.
      */
-    fun setPes(pes: Double) {
+    fun setPes(pes: Float) {
         this.pes = pes
     }
 

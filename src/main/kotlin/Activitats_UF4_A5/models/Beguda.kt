@@ -9,7 +9,7 @@ package org.example.Activitats_UF4_A5.models
  */
 class Beguda {
     private var nom: String? = ""
-    private var preu: Double? = null
+    private var preu: Float? = null
     private var teIncrement: Boolean? = false
 
     /**
@@ -19,7 +19,7 @@ class Beguda {
      * @param preu Precio de la bebida.
      * @param teIncrement Indica si la bebida tiene incremento de azúcar.
      */
-    constructor(nom: String, preu: Double, teIncrement: Boolean) {
+    constructor(nom: String, preu: Float, teIncrement: Boolean) {
         this.nom = nom
         this.preu = preu
         this.teIncrement = teIncrement
@@ -48,7 +48,7 @@ class Beguda {
      *
      * @return Precio de la bebida.
      */
-    fun getPreu(): Double? {
+    fun getPreu(): Float? {
         return preu
     }
 
@@ -57,7 +57,7 @@ class Beguda {
      *
      * @param pPreu Nuevo precio de la bebida.
      */
-    fun setPreu(pPreu: Double) {
+    fun setPreu(pPreu: Float) {
         this.preu = pPreu
     }
 

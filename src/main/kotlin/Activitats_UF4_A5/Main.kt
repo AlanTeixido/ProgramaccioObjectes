@@ -2,31 +2,63 @@ package org.example.Activitats_UF4_A5
 
 import org.example.Activitats_UF4_A5.models.Beguda
 import org.example.Activitats_UF4_A5.models.Pastisseria
+import org.example.Utilities.*
 
 /**
  * Programa principal que demuestra el uso de las clases [Pastisseria] y [Beguda].
  */
 fun main() {
     // Crear instancias de Pastisseria
-    val croissant = Pastisseria("Croissant", 1.50, 100.0, 300)
-    println("Nom: ${croissant.getNom()}, Preu: ${croissant.getPreu()}, Pes: ${croissant.getPes()}, Calories: ${croissant.getCalories()}")
+    val croissant = Pastisseria(
+        readWord("Nom del croissant:", "Cal introduir un nom."),
+        readFloat("Preu del croissant:", "Cal introduir un preu vàlid."),
+        readFloat("Pes del croissant:", "Cal introduir un pes vàlid."),
+        readInt("Calories del croissant:", "Cal introduir un valor numèric per a les calories.")
+    )
+    println("Informació del croissant: ${croissant}")
 
-    val ensaimada = Pastisseria("Ensaimada", 2.00, 50.0, 200)
-    println("Nom: ${ensaimada.getNom()}, Preu: ${ensaimada.getPreu()}, Pes: ${ensaimada.getPes()}, Calories: ${ensaimada.getCalories()}")
+    val ensaimada = Pastisseria(
+        readWord("Nom de l'ensaimada:", "Cal introduir un nom."),
+        readFloat("Preu de l'ensaimada:", "Cal introduir un preu vàlid."),
+        readFloat("Pes de l'ensaimada:", "Cal introduir un pes vàlid."),
+        readInt("Calories de l'ensaimada:", "Cal introduir un valor numèric per a les calories.")
+    )
+    println("Informació de l'ensaimada: ${ensaimada}")
 
-    val donut = Pastisseria("Donut", 0.80, 20.0, 400)
-    println("Nom: ${donut.getNom()}, Preu: ${donut.getPreu()}, Pes: ${donut.getPes()}, Calories: ${donut.getCalories()}")
+    val donut = Pastisseria(
+        readWord("Nom del donut:", "Cal introduir un nom."),
+        readFloat("Preu del donut:", "Cal introduir un preu vàlid."),
+        readFloat("Pes del donut:", "Cal introduir un pes vàlid."),
+        readInt("Calories del donut:", "Cal introduir un valor numèric per a les calories.")
+    )
+    println("Informació del donut: ${donut}")
 
     // Crear instancias de Beguda
-    val cocacola = Beguda("Cocacola", 2.50, true)
-    println("Nom: ${cocacola.getNom()}, Preu: ${cocacola.getPreu()}, Té increment sucre: ${cocacola.getIncrementSucre()}")
+    val cocacola = Beguda(
+        readWord("Nom de la Cocacola:", "Cal introduir un nom."),
+        readFloat("Preu de la Cocacola:", "Cal introduir un preu vàlid."),
+        readBoolean("Té increment sucre per a la Cocacola:", "Cal introduir un valor boolean.")
+    )
+    println("Informació de la Cocacola: ${cocacola}")
 
-    val cafe = Beguda("Cafe", 0.50, false)
-    println("Nom: ${cafe.getNom()}, Preu: ${cafe.getPreu()}, Té increment sucre: ${cafe.getIncrementSucre()}")
+    val cafe = Beguda(
+        readWord("Nom del café:", "Cal introduir un nom."),
+        readFloat("Preu del café:", "Cal introduir un preu vàlid."),
+        readBoolean("Té increment sucre per al café:", "Cal introduir un valor boolean.")
+    )
+    println("Informació del café: ${cafe}")
 
-    val aigua = Beguda("Aigua", 1.00, false)
-    println("Nom: ${aigua.getNom()}, Preu: ${aigua.getPreu()}, Té increment sucre: ${aigua.getIncrementSucre()}")
+    val aigua = Beguda(
+        readWord("Nom de l'aigua:", "Cal introduir un nom."),
+        readFloat("Preu de l'aigua:", "Cal introduir un preu vàlid."),
+        readBoolean("Té increment sucre per a l'aigua:", "Cal introduir un valor boolean.")
+    )
+    println("Informació de l'aigua: ${aigua}")
 
-    val fanta = Beguda("Fanta", 1.80, true)
-    println("Nom: ${fanta.getNom()}, Preu: ${fanta.getPreu()}, Té increment sucre: ${fanta.getIncrementSucre()}")
+    val fanta = Beguda(
+        readWord("Nom de la Fanta:", "Cal introduir un nom."),
+        readFloat("Preu de la Fanta:", "Cal introduir un preu vàlid."),
+        readBoolean("Té increment sucre per a la Fanta:", "Cal introduir un valor boolean.")
+    )
+    println("Informació de la Fanta: ${fanta}")
 }
