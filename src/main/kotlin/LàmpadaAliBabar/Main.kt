@@ -1,5 +1,7 @@
 package org.example.LàmpadaAliBabar
+import Lampada
 import org.example.Utilities.*
+
 fun main() {
     val lampada1 = Lampada("Làmpada del menjador")
     val lampada2 = Lampada("Làmpada de la cuina")
