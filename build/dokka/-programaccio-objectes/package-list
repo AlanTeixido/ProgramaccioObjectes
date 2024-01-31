@@ -1,5 +1,78 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
+$dokka.location:org.example.Activitat3////PointingToDeclaration/-programaccio-objectes/org.example.Activitat3/index.html
+$dokka.location:org.example.Activitat3/OO1Kt///PointingToDeclaration/-programaccio-objectes/org.example.Activitat3/-o-o1-kt/index.html
+$dokka.location:org.example.Activitat3/OO1Kt/main/#kotlin.Array[kotlin.String]/PointingToDeclaration/-programaccio-objectes/org.example.Activitat3/-o-o1-kt/main.html
+$dokka.location:org.example.Activitat3/OOKt///PointingToDeclaration/-programaccio-objectes/org.example.Activitat3/-o-o-kt/index.html
+$dokka.location:org.example.Activitat3/OOKt/main/#kotlin.Array[kotlin.String]/PointingToDeclaration/-programaccio-objectes/org.example.Activitat3/-o-o-kt/main.html
+$dokka.location:org.example.Activitat3/Persona///PointingToDeclaration/-programaccio-objectes/org.example.Activitat3/-persona/index.html
+$dokka.location:org.example.Activitat3/Persona/Persona/#kotlin.String#kotlin.String#kotlin.Int/PointingToDeclaration/-programaccio-objectes/org.example.Activitat3/-persona/-persona.html
+$dokka.location:org.example.Activitat3/Persona/Persona/#kotlin.String#kotlin.String/PointingToDeclaration/-programaccio-objectes/org.example.Activitat3/-persona/-persona.html
+$dokka.location:org.example.Activitat3/Persona/caminar/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitat3/-persona/caminar.html
+$dokka.location:org.example.Activitat3/Persona/getAlcada/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitat3/-persona/get-alcada.html
+$dokka.location:org.example.Activitat3/Persona/getCognoms/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitat3/-persona/get-cognoms.html
+$dokka.location:org.example.Activitat3/Persona/getEdat/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitat3/-persona/get-edat.html
+$dokka.location:org.example.Activitat3/Persona/getNom/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitat3/-persona/get-nom.html
+$dokka.location:org.example.Activitat3/Persona/getPes/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitat3/-persona/get-pes.html
+$dokka.location:org.example.Activitat3/Persona/morir/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitat3/-persona/morir.html
+$dokka.location:org.example.Activitat3/Persona/neixer/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitat3/-persona/neixer.html
+$dokka.location:org.example.Activitat3/Persona/parlar/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitat3/-persona/parlar.html
+$dokka.location:org.example.Activitat3/Persona/presentacio/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitat3/-persona/presentacio.html
+$dokka.location:org.example.Activitat3/Persona/setAlcada/#kotlin.Int/PointingToDeclaration/-programaccio-objectes/org.example.Activitat3/-persona/set-alcada.html
+$dokka.location:org.example.Activitat3/Persona/setCognoms/#kotlin.String/PointingToDeclaration/-programaccio-objectes/org.example.Activitat3/-persona/set-cognoms.html
+$dokka.location:org.example.Activitat3/Persona/setEdat/#kotlin.Int/PointingToDeclaration/-programaccio-objectes/org.example.Activitat3/-persona/set-edat.html
+$dokka.location:org.example.Activitat3/Persona/setNom/#kotlin.String/PointingToDeclaration/-programaccio-objectes/org.example.Activitat3/-persona/set-nom.html
+$dokka.location:org.example.Activitat3/Persona/setPes/#kotlin.Float/PointingToDeclaration/-programaccio-objectes/org.example.Activitat3/-persona/set-pes.html
+$dokka.location:org.example.Activitats_UF4_A4.models////PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A4.models/index.html
+$dokka.location:org.example.Activitats_UF4_A4.models/Cercle///PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A4.models/-cercle/index.html
+$dokka.location:org.example.Activitats_UF4_A4.models/Cercle/Cercle/#kotlin.Float#kotlin.String/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A4.models/-cercle/-cercle.html
+$dokka.location:org.example.Activitats_UF4_A4.models/Cercle/Cercle/#kotlin.Float/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A4.models/-cercle/-cercle.html
+$dokka.location:org.example.Activitats_UF4_A4.models/Cercle/calcArea/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A4.models/-cercle/calc-area.html
+$dokka.location:org.example.Activitats_UF4_A4.models/Cercle/calcPerimetre/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A4.models/-cercle/calc-perimetre.html
+$dokka.location:org.example.Activitats_UF4_A4.models/Cercle/getArea/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A4.models/-cercle/get-area.html
+$dokka.location:org.example.Activitats_UF4_A4.models/Cercle/getPerimetre/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A4.models/-cercle/get-perimetre.html
+$dokka.location:org.example.Activitats_UF4_A4.models/Cercle/setArea/#kotlin.Float/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A4.models/-cercle/set-area.html
+$dokka.location:org.example.Activitats_UF4_A4.models/Cercle/setPerimetre/#kotlin.Float/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A4.models/-cercle/set-perimetre.html
+$dokka.location:org.example.Activitats_UF4_A4.models/Cercle/toString/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A4.models/-cercle/to-string.html
+$dokka.location:org.example.Activitats_UF4_A4.models/Persona///PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A4.models/-persona/index.html
+$dokka.location:org.example.Activitats_UF4_A4.models/Persona/Persona/#kotlin.String#kotlin.String#kotlin.String#kotlin.Int#kotlin.Boolean/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A4.models/-persona/-persona.html
+$dokka.location:org.example.Activitats_UF4_A4.models/Persona/Persona/#kotlin.String#kotlin.String/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A4.models/-persona/-persona.html
+$dokka.location:org.example.Activitats_UF4_A4.models/Persona/aniversari/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A4.models/-persona/aniversari.html
+$dokka.location:org.example.Activitats_UF4_A4.models/Persona/casament/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A4.models/-persona/casament.html
+$dokka.location:org.example.Activitats_UF4_A4.models/Persona/divorci/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A4.models/-persona/divorci.html
+$dokka.location:org.example.Activitats_UF4_A4.models/Persona/setEdat/#kotlin.Int/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A4.models/-persona/set-edat.html
+$dokka.location:org.example.Activitats_UF4_A4.models/Persona/toString/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A4.models/-persona/to-string.html
+$dokka.location:org.example.Activitats_UF4_A4////PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A4/index.html
+$dokka.location:org.example.Activitats_UF4_A4/MainKt///PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A4/-main-kt/index.html
+$dokka.location:org.example.Activitats_UF4_A4/MainKt/main/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A4/-main-kt/main.html
+$dokka.location:org.example.Activitats_UF4_A4/MainKt/mostrarMenuCercle/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A4/-main-kt/mostrar-menu-cercle.html
+$dokka.location:org.example.Activitats_UF4_A4/MainKt/mostrarMenuPersona/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A4/-main-kt/mostrar-menu-persona.html
+$dokka.location:org.example.Activitats_UF4_A4/Main_2Kt///PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A4/-main_2-kt/index.html
+$dokka.location:org.example.Activitats_UF4_A4/Main_2Kt/main/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A4/-main_2-kt/main.html
+$dokka.location:org.example.Activitats_UF4_A5.models////PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A5.models/index.html
+$dokka.location:org.example.Activitats_UF4_A5.models/Beguda///PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A5.models/-beguda/index.html
+$dokka.location:org.example.Activitats_UF4_A5.models/Beguda/Beguda/#kotlin.String#kotlin.Double#kotlin.Boolean/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A5.models/-beguda/-beguda.html
+$dokka.location:org.example.Activitats_UF4_A5.models/Beguda/getIncrementSucre/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A5.models/-beguda/get-increment-sucre.html
+$dokka.location:org.example.Activitats_UF4_A5.models/Beguda/getNom/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A5.models/-beguda/get-nom.html
+$dokka.location:org.example.Activitats_UF4_A5.models/Beguda/getPreu/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A5.models/-beguda/get-preu.html
+$dokka.location:org.example.Activitats_UF4_A5.models/Beguda/setIncrementSucre/#kotlin.Boolean/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A5.models/-beguda/set-increment-sucre.html
+$dokka.location:org.example.Activitats_UF4_A5.models/Beguda/setNom/#kotlin.String/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A5.models/-beguda/set-nom.html
+$dokka.location:org.example.Activitats_UF4_A5.models/Beguda/setPreu/#kotlin.Double/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A5.models/-beguda/set-preu.html
+$dokka.location:org.example.Activitats_UF4_A5.models/Beguda/toString/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A5.models/-beguda/to-string.html
+$dokka.location:org.example.Activitats_UF4_A5.models/Pastisseria///PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A5.models/-pastisseria/index.html
+$dokka.location:org.example.Activitats_UF4_A5.models/Pastisseria/Pastisseria/#kotlin.String#kotlin.Double#kotlin.Double#kotlin.Int/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A5.models/-pastisseria/-pastisseria.html
+$dokka.location:org.example.Activitats_UF4_A5.models/Pastisseria/getCalories/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A5.models/-pastisseria/get-calories.html
+$dokka.location:org.example.Activitats_UF4_A5.models/Pastisseria/getNom/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A5.models/-pastisseria/get-nom.html
+$dokka.location:org.example.Activitats_UF4_A5.models/Pastisseria/getPes/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A5.models/-pastisseria/get-pes.html
+$dokka.location:org.example.Activitats_UF4_A5.models/Pastisseria/getPreu/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A5.models/-pastisseria/get-preu.html
+$dokka.location:org.example.Activitats_UF4_A5.models/Pastisseria/setCalories/#kotlin.Int/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A5.models/-pastisseria/set-calories.html
+$dokka.location:org.example.Activitats_UF4_A5.models/Pastisseria/setNom/#kotlin.String/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A5.models/-pastisseria/set-nom.html
+$dokka.location:org.example.Activitats_UF4_A5.models/Pastisseria/setPes/#kotlin.Double/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A5.models/-pastisseria/set-pes.html
+$dokka.location:org.example.Activitats_UF4_A5.models/Pastisseria/setPreu/#kotlin.Double/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A5.models/-pastisseria/set-preu.html
+$dokka.location:org.example.Activitats_UF4_A5.models/Pastisseria/toString/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A5.models/-pastisseria/to-string.html
+$dokka.location:org.example.Activitats_UF4_A5////PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A5/index.html
+$dokka.location:org.example.Activitats_UF4_A5/MainKt///PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A5/-main-kt/index.html
+$dokka.location:org.example.Activitats_UF4_A5/MainKt/main/#/PointingToDeclaration/-programaccio-objectes/org.example.Activitats_UF4_A5/-main-kt/main.html
 $dokka.location:org.example////PointingToDeclaration/-programaccio-objectes/org.example/index.html
 $dokka.location:org.example/Car///PointingToDeclaration/-programaccio-objectes/org.example/-car/index.html
 $dokka.location:org.example/Car/Car/#/PointingToDeclaration/-programaccio-objectes/org.example/-car/-car.html
@@ -42,4 +115,9 @@ $dokka.location:org.example/ClassCar(Exemple)Kt/main3/#/PointingToDeclaration/-
 $dokka.location:org.example/Fun&Ckass(Exemple)Kt///PointingToDeclaration/-programaccio-objectes/org.example/-fun&-ckass(-exemple)-kt/index.html
 $dokka.location:org.example/Fun&Ckass(Exemple)Kt/main/#/PointingToDeclaration/-programaccio-objectes/org.example/-fun&-ckass(-exemple)-kt/main.html
 org.example
+org.example.Activitat3
+org.example.Activitats_UF4_A4
+org.example.Activitats_UF4_A4.models
+org.example.Activitats_UF4_A5
+org.example.Activitats_UF4_A5.models
 
