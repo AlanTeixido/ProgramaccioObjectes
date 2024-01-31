@@ -1,5 +1,8 @@
 package org.example.Activitats_UF4_A4
 
+import org.example.Activitats_UF4_A4.models.Cercle
+import org.example.Activitats_UF4_A4.models.Persona
+
 fun main() {
     mostrarMenuPersona()
     mostrarMenuCercle()
@@ -44,11 +47,11 @@ fun mostrarMenuCercle() {
             }
 
             "4" -> {
-                println("Perímetre del ultim cercle creat: ${cercle?.perimetre()}")
+                println("Perímetre del ultim cercle creat: ${cercle?.calcPerimetre()}")
             }
 
             "5" -> {
-                println("Area ultim cercle ${cercle?.area()}")
+                println("Area ultim cercle ${cercle?.calcArea()}")
             }
 
             "6" -> {
@@ -66,20 +69,20 @@ fun mostrarMenuCercle() {
 fun mostrarMenuPersona (){
     println("\n ARA LA PERSONA \n")
 
-    val persona1 = EXClassePersona()
-    val persona2 = EXClassePersona("Calva", "Maria")
-    val persona3 = EXClassePersona("123456789A","Laura", "Mares",12,true)
+    //val persona1 = Persona()
+    val persona2 = Persona("Calva", "Maria")
+    val persona3 = Persona("123456789A","Laura", "Mares",12,true)
 
 
-    println(persona1)
+    //println(persona1)
     println(persona2)
     println(persona3)
-
-    persona1.aniversari()
+    persona2.aniversari()
+    //persona1.aniversari()
     persona2.casament()
     persona3.divorci()
 
-    println(persona1)
+    // println(persona1)
     println(persona2)
     println(persona3)
 }
