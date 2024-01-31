@@ -7,7 +7,7 @@ class Lampada {
     private val colorsValids = listOf("Blanc", "Negre", "Blau", "Vermell", "Verd", "Rosa")
     private var identificador: String? = null
 
-    // Método para establecer el identificador
+
     fun setIdentificador(nouIdentificador: String) {
         identificador = nouIdentificador
     }
@@ -51,7 +51,7 @@ class Lampada {
                 1,
                 5
             )
-        } while (intensitat < 5) // Se seguirá pidiendo la intensidad hasta que sea igual a 5
+        } while (intensitat < 5)
         mostrarEstat()
     }
 
