@@ -18,9 +18,12 @@ dependencies {
 tasks.test {
     useJUnitPlatform()
 }
+
 kotlin {
     jvmToolchain(20)
 }
+
 tasks.dokkaHtml.configure {
     outputDirectory.set(project.layout.buildDirectory.dir("dokka"))
 }
+
