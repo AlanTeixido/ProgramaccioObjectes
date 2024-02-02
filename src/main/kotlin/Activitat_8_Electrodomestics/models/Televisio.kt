@@ -10,7 +10,7 @@ class Televisio(
     var mida: Int = 28
 ) : Electrodomestic(preuBase, color, consum, pes) {
 
-    fun preuFinal(): Int {
+    override fun preuFinal(): Int {
         var preuFinal = super.preuFinal()
 
         // Incremento del precio en función de la medida
