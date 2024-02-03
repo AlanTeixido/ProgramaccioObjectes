@@ -5,14 +5,6 @@ class Televisio(
     pes: Int = 5,
     var mida: Int = 28
 ) : Electrodomestic(preuBase, color, consum, pes) {
-    init {
-        // Validar el valor de consum para asegurarse de que esté en el rango correcto
-        this.consum = when (consum) {
-            in 1..7 -> consum
-            else -> 0 // Si está fuera del rango, se asigna el valor por defecto (G)
-        }
-    }
-
     override fun preuFinal(): Int {
         var preuFinal = super.preuFinal()
 
