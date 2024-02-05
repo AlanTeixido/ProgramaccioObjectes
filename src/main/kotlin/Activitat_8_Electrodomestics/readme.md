@@ -4,6 +4,11 @@
 
 A Kotlin project for calculating the final price of household appliances based on various parameters such as base price, color, consumption, weight, etc.
 
+## UML
+
+![umlElectrodomestics](https://github.com/AlanTeixido/ProgramaccioObjectes/assets/152865024/a1ae72ac-de10-4f4d-bd81-c81f46a0400a)
+
+
 ## 🔍 Table of Contents
 
 * [📝 Project Summary](#-project-summary)
