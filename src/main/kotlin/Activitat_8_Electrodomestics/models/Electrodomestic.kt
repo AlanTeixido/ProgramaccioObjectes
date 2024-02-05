@@ -1,32 +1,51 @@
+/**
+ * Classe que representa un electrodomèstic.
+ *
+ * @property preuBase Preu base de l'electrodomèstic.
+ * @property color Color de l'electrodomèstic.
+ * @property consum Consum d'energia de l'electrodomèstic.
+ * @property pes Pes de l'electrodomèstic.
+ * @constructor Crea un electrodomèstic amb els paràmetres especificats.
+ */
 open class Electrodomestic(
     var preuBase: Int,
     var color: String = "blanc",
-    var consum: Int = 0,
+    var consum: String = "G",
     var pes: Int = 5
 ) {
+    /**
+     * Inicialitzador que valida el valor del consum per assegurar-se que està dins del rang correcte.
+     */
     init {
-        // Validar el valor de consum para asegurarse de que esté en el rango correcto
         consum = when (consum) {
-            in 1..7 -> consum
-            else -> 0 // Si está fuera del rango, se asigna el valor por defecto (G)
+            in "A".."G" -> consum
+            else -> "G" // Si està fora del rang, s'assigna el valor per defecte (G)
         }
     }
 
+    /**
+     * Calcula el preu final de l'electrodomèstic.
+     *
+     * @return Preu final de l'electrodomèstic.
+     */
+    /**
+     * Calcula el preu final de l'electrodomèstic.
+     *
+     * @return Preu final de l'electrodomèstic.
+     */
     open fun preuFinal(): Int {
         var preuFinal = preuBase
 
-        // Incremento del precio en función del consum
         preuFinal += when (consum) {
-            1 -> 35
-            2 -> 30
-            3 -> 25
-            4 -> 20
-            5 -> 15
-            6 -> 10
-            else -> 0 // G ya tiene 0€ de incremento
+            "A" -> 35
+            "B" -> 30
+            "C" -> 25
+            "D" -> 20
+            "E" -> 15
+            "F" -> 10
+            else -> 0 // "G" ya tiene 0€ de incremento
         }
 
-        // Incremento del precio en función del pes
         when {
             pes in 6..20 -> preuFinal += 20
             pes in 21..50 -> preuFinal += 50
@@ -37,6 +56,14 @@ open class Electrodomestic(
         return preuFinal
     }
 
+
+
+
+    /**
+     * Retorna una representació en format de cadena de l'objecte Electrodomestic.
+     *
+     * @return Representació en format de cadena de l'objecte.
+     */
     override fun toString(): String {
         return """
             Electrodomèstic:

@@ -4,7 +4,6 @@ import Electrodomestic
 import Rentadora
 import Televisio
 
-
 fun main() {
     val electrodomestics: Array<Electrodomestic> = arrayOf(
         Electrodomestic(35, "D", 2),

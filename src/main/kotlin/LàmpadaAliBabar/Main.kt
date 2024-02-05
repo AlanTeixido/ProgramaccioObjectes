@@ -24,3 +24,4 @@ fun main() {
     lampada2.canviarColor()
     lampada2.canviarIntensitat()
 }
+
