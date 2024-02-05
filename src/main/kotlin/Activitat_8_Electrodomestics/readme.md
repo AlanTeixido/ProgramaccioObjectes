@@ -29,10 +29,5 @@ A Kotlin project for calculating the final price of household appliances based o
 > [!CAUTION]
 > To execute the application, ensure you have the necessary dependencies installed.
 
-This is an example of code execution:
-
-```bash
-./run.sh
-```
 
 - [Alan Teixidó](https://github.com/AlanTeixido)
