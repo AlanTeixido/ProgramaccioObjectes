@@ -22,6 +22,7 @@ The two main files used in almost all kotlin files (data input and output and co
 - [src/main/kotlin/Activitats_UF4_A4](src/main/kotlin/Activitats_UF4_A4): Fourth Person and Circle Activity
 - [src/main/kotlin/Activitats_UF4_A5](src/main/kotlin/Activitats_UF4_A5): Fifth Pastry and Drinks Activity
 - [src/main/kotlin/LàmpadaAliBabar](src/main/kotlin/LàmpadaAliBabar): Sixth Activity of the Lampada
+- [src/main/kotlin/Activitat_8_Electrodomestics](src/main/kotlin/Activitat_8_Electrodomestics):The eighth activity about electrodomestics (open class)
 
 #### Made by 
 - [Alan Teixidó](https://github.com/AlanTeixido)
