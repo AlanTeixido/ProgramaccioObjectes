@@ -1,4 +1,4 @@
-# Programació Orientada a Objectes
+# Programació Orientada a Objectes 
 
 
 > [!CAUTION]
@@ -23,6 +23,9 @@ The two main files used in almost all kotlin files (data input and output and co
 - [src/main/kotlin/Activitats_UF4_A5](src/main/kotlin/Activitats_UF4_A5): Fifth Pastry and Drinks Activity
 - [src/main/kotlin/LàmpadaAliBabar](src/main/kotlin/LàmpadaAliBabar): Sixth Activity of the Lampada
 - [src/main/kotlin/Activitat_8_Electrodomestics](src/main/kotlin/Activitat_8_Electrodomestics):The eighth activity about electrodomestics (open class)
+
+## 〽️ Content example 
+![image](https://github.com/AlanTeixido/ProgramaccioObjectes/assets/152865024/8a0a0d58-12dd-4a4d-a5f5-ce5ab53b7689)
 
 #### Made by 
 - [Alan Teixidó](https://github.com/AlanTeixido)
