@@ -1,7 +1,5 @@
 package org.example.Activitats_UF4_A5
 
-import org.example.Activitats_UF4_A5.models.Beguda
-import org.example.Activitats_UF4_A5.models.Pastisseria
 import org.example.Utilities.*
 
 /**
