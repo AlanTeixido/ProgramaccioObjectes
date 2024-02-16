@@ -1,10 +1,9 @@
 package org.example.Activitats_UF4_A15_Lladres_legals.models
 import java.util.*
 
-open class CompteBancari(
-    private var numeroCompte: String? = null,
+open class CompteBancari {
+    private var numeroCompte: String? = null
     private var saldo: Double? = null
-) {
     private val dataObertura: Date? = Date()
 
     open fun ingressar(quantitat: Double) {
