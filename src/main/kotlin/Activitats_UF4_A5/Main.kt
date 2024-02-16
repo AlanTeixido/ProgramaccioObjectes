@@ -1,5 +1,6 @@
 package org.example.Activitats_UF4_A5
 
+import org.example.Activitats_UF4_A5.models.*
 import org.example.Utilities.*
 
 /**
