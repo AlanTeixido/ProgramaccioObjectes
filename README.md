@@ -1,35 +1,31 @@
 # Programació Orientada a Objectes 
 
-
 > [!CAUTION]
-> ### 🚀 Execution
-> To execute the application, you need the **Amazon Corretto 20 SDK**.
+> ### 🚀 Execució
+> Per executar l'aplicació, necessites el **Amazon Corretto 20 SDK**.
 
-> [!NOTE]
-> This project is carried out with the purpose of having class notes online and easier to access, help if necessary and upload the activities.
+> [!NOTA]
+> Aquest projecte es porta a terme amb la finalitat de tenir les notes de classe en línia i més fàcilment accessibles, ajudar si és necessari i pujar les activitats.
 
-## 📌 Overview
-Repository of my notes, work and class activities on object-oriented programming. 
+## 📌 Descripció General
+Repositori dels meus apunts, treballs i activitats de classe sobre programació orientada a objectes. 
 
-## 📝 Project Utilities
-The two main files used in almost all kotlin files (data input and output and colors for the terminal).
+## 📝 Utilitats del Projecte
+Els dos arxius principals utilitzats en gairebé tots els fitxers Kotlin (entrada i sortida de dades i colors per al terminal).
 
-- [src/main/kotlin/Utilities/Utilities.kt](src/main/kotlin/Utilities/Utilities.kt): Modular file with reusable methods.
-- [src/main/kotlin/Utilities/ConsoleColors.kt](src/main/kotlin/Utilities/ConsoleColors.kt): File with constants for terminal colors.
+- [Utilities.kt](src/main/kotlin/Utilities/Utilities.kt): Fitxer modular amb mètodes reutilitzables.
+- [ConsoleColors.kt](src/main/kotlin/Utilities/ConsoleColors.kt): Fitxer amb constants per als colors del terminal.
 
-## 📊 Project Content
-- [src/main/kotlin/Activitat3](src/main/kotlin/Activitat3): Third Person Activity
-- [src/main/kotlin/Activitats_UF4_A4](src/main/kotlin/Activitats_UF4_A4): Fourth Person and Circle Activity
-- [src/main/kotlin/Activitats_UF4_A5](src/main/kotlin/Activitats_UF4_A5): Fifth Pastry and Drinks Activity
-- [src/main/kotlin/LàmpadaAliBabar](src/main/kotlin/LàmpadaAliBabar): Sixth Activity of the Lampada
-- [src/main/kotlin/Activitat_8_Electrodomestics](src/main/kotlin/Activitat_8_Electrodomestics):The eighth activity about electrodomestics (open class)
+## 📊 Contingut del Projecte
+- [Activitat3](src/main/kotlin/Activitat3): Tercera Activitat en Tercera Persona
+- [Activitats_UF4_A4](src/main/kotlin/Activitats_UF4_A4): Quarta Activitat en Quarta Persona i Cercle
+- [Activitats_UF4_A5](src/main/kotlin/Activitats_UF4_A5): Cinquena Activitat de Pastisseria i Begudes
+- [LàmpadaAliBabar](src/main/kotlin/LàmpadaAliBabar): Sisena Activitat de la Llàmpada
+- [Activitat_8_Electrodomestics](src/main/kotlin/Activitat_8_Electrodomestics): Vuitena Activitat sobre Electrodomèstics (classe oberta)
+- [Activitats_UF4_A15_Lladres_legals](src/main/kotlin/Activitats_UF4_A15_Lladres_legals): Quinzena Activitat sobre Gestor de Comptes Bancaris
 
-## 〽️ Content example 
+## 〽️ Exemple de Contingut 
 ![image](https://github.com/AlanTeixido/ProgramaccioObjectes/assets/152865024/8a0a0d58-12dd-4a4d-a5f5-ce5ab53b7689)
 
-#### Made by 
+#### Fet per 
 - [Alan Teixidó](https://github.com/AlanTeixido)
-
-
-
-
