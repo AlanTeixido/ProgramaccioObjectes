@@ -1,0 +1,26 @@
+@startuml
+
+    class "CompteBancari" {
+        - numeroCompte: String?
+        - saldo: Double?
+        - dataObertura: Date?
+        + ingressar(quantitat: Double)
+        + retirar(quantitat: Double)
+        + consultarSaldo()
+        + getNumeroCompte(): String?
+        + setNumeroCompte(numeroCompte: String)
+        + getSaldo(): Double?
+        + setSaldo(saldo: Double)
+    }
+
+    class "CompteCorrent" {
+        - retirar(quantitat: Double)
+    }
+
+    class "CompteEstalvi" {
+        - ingressar(quantitat: Double)
+        - liquidar()
+    }
+}
+
+@enduml

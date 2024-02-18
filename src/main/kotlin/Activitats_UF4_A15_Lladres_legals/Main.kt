@@ -21,19 +21,19 @@ fun main() {
         println("${BLUE}--------------------------")
         print("${GREEN}Selecciona una opció: ${RESET}")
 
-        val input = readln() // Leemos la entrada del usuario como una cadena
+        val input = readln() // Llegim l'entrada de l'usuari com una cadena
 
-        // Intentamos convertir la entrada a un entero
+        // Intentem convertir l'entrada a un enter
         opcio = input?.toIntOrNull() ?: 0
 
-        // Verificamos si la opción es válida
+        // Verifiquem si l'opció és vàlida
         if (opcio in 1..7) {
             when (opcio) {
                 1 -> {
                     var numeroCompte: String
                     do {
                         numeroCompte = readWord("${YELLOW}Introdueix el número del compte corrent:", "${RED}Entrada invàlida${RESET}")
-                    } while (!numeroCompte.matches(Regex("[0-9]+")))
+                    } while (!esNumeroCompteValid(numeroCompte))
                     compteCorrent.setNumeroCompte(numeroCompte)
                     compteCorrent.setSaldo(readFloat("${YELLOW}Introdueix el saldo del compte corrent:", "${RED}Entrada invàlida${RESET}").toDouble())
                     println("${GREEN}Compte corrent creat amb èxit.${RESET}")
@@ -42,7 +42,7 @@ fun main() {
                     var numeroCompte: String
                     do {
                         numeroCompte = readWord("${YELLOW}Introdueix el número del compte d'estalvi:", "${RED}Entrada invàlida${RESET}")
-                    } while (!numeroCompte.matches(Regex("[0-9]+")))
+                    } while (!esNumeroCompteValid(numeroCompte))
                     compteEstalvi.setNumeroCompte(numeroCompte)
                     compteEstalvi.setSaldo(readFloat("${YELLOW}Introdueix el saldo del compte d'estalvi:", "${RED}Entrada invàlida${RESET}").toDouble())
                     println("${GREEN}Compte d'estalvi creat amb èxit.${RESET}")
@@ -87,7 +87,11 @@ fun main() {
         }
 
         if (opcio == 7) {
-            break // Salimos del bucle si el usuario elige salir
+            break // Sortim del bucle si l'usuari tria sortir
         }
     } while (true)
+}
+
+fun esNumeroCompteValid(numeroCompte: String): Boolean {
+    return numeroCompte.all { it.isDigit() }
 }
