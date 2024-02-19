@@ -6,7 +6,7 @@ Aquest és un projecte Kotlin per gestionar comptes bancaris, que permet crear c
 
 ## UML
 
-![diagramaUMLClasses](https://github.com/AlanTeixido/ProgramacioObjectes/assets/152865024/f4913070-96d4-4444-bb11-eaf8ea472de5)
+![diagramaUMLClasses](https://github.com/AlanTeixido/ProgramacioObjectes/assets/152865024/c83fcdcd-21f0-4965-8f8c-5c1004457bd9)
 
 ## 🔍 Taula de continguts
 
